@@ -12,7 +12,7 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    padding: 8px;
+    padding: 0px 8px;
     align-items: center;
     justify-content: space-between;
 }
@@ -28,13 +28,17 @@ ul{
 .logo{
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px 0px 90px;
 }
 .hero{
-    width: 500px;
+    width: 400px;
 }
 
 a{
@@ -46,20 +50,60 @@ h1{
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    margin: 0px 8px;
 }
 
 .secondary{
     font-size: 18;
     color: #E5E7EB;
+    margin: 8px 8px;
 }
 
-button, .call{
+button{
 background-color: #3882F6;
+margin: 16px 8px;
+border-radius: 10px;
+border: none;
+font-size: 18px;
+font-weight: bold;
+color: white;
+padding: 8px 40px;
 }
 
-img{
-    width: 500px;
+.headerimg{
+    max-width: 500px;
     height: auto;
+    border-radius: 10px;
+}
+
+.infocont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infohead{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.subinfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info{
+    width:200px;
+}
+
+.infoimg{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .footer{
