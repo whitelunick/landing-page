@@ -80,12 +80,14 @@ padding: 8px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px;
 }
 
 .infohead{
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    margin-bottom: 40px;
 }
 
 .subinfo{
@@ -93,17 +95,40 @@ padding: 8px 40px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 52px;
+    gap: 70px;
 }
 
 .info{
     width:200px;
+    text-align: center;
 }
 
 .infoimg{
     width: 200px;
     height: auto;
     border-radius: 10px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 200px;  
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote h2{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: flex-end;
 }
 
 .footer{
